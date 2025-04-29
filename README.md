@@ -4,38 +4,26 @@
 Our company is expanding into the aviation industry and needs to select aircraft that have the lowest risk for commercial and private operations.
 This project analyzes historical aviation accident data to identify patterns, assess risks, and recommend aircraft types that are safer for business investment.
 
-#❓ Business Problem
+# ❓ Business Problem
 The company requires actionable insights into which aircraft categories and aircraft makes have the fewest accidents and injuries.
 This will help the aviation division make informed decisions when purchasing aircraft for the new fleet.
 
-#📊 Dataset
-Source: National Transportation Safety Board (NTSB) Aviation Accident Database
-
-Size: ~80,000 rows and ~30 columns
+# 📊 Dataset
+Source:  Aviation Accident Data
+Size: ~90,348 rows and ~31 columns
 
 ## Key Features Used:
 
-Aircraft.Category
-
-Make
-
-Model
-
-Total.Fatal.Injuries
-
-Total.Serious.Injuries
-
-Total.Minor.Injuries
-
-Total.Uninjured
-
-Number.of.Engines
-
-Broad.phase.of.flight
-
-Weather.Condition
-
-Accident.Number
+* Aircraft.Category
+* Make
+* Model
+* Total.Fatal.Injuries
+* Total.Serious.Injuries
+* Total.Minor.Injuries
+* Total.Uninjured
+* Number.of.Engines
+* Broad.phase.of.flight
+* Weather.Condition
 
 # 🔎 Methodology
 Business Understanding
@@ -46,55 +34,47 @@ Load, inspect, and summarize the data.
 
 # Data Preparation
 
-Drop irrelevant columns
-
+Select relevant features for analysis by dropping irrelevant columns
 Handle missing values
 
-Select relevant features for analysis
 
 # Data Analysis & Visualization
 
-Identify aircraft categories with the most/least accidents
+* Identify aircraft manufacturers with the highest level of fatalities
+* Analyze aircraft damage
+* Analyze injuries and fatalities by phase of flight
+* Analyze Engine type distribution in accidents
+* Study accident phases and weather conditions
+* Findings and Recommendations
+* Provide insights to guide safe aircraft purchasing decisions.
 
-Analyze injuries and fatalities
+# 🔗 Interactive Dashboard
 
-Study accident phases and weather conditions
+View the live dashboard here: [Click to Open Dashboard](https://public.tableau.com/views/AircraftRiskAnalysisDashboard/PHASE1INTERACTIVEDASHBOARD?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-Findings and Recommendations
-Provide insights to guide safe aircraft purchasing decisions.
 
-📈 Key Findings
-Certain aircraft categories are associated with significantly fewer accidents.
+# 📈 Key Findings
+   - The most dangerous phases of flight are **maneuvering and cruising**, which account for the highest number of fatal and serious injuries.
+   - **Reciprocating engines** are linked to the largest share of crash incidents.
+   - A significant portion of crashes result in **substantial or total destruction** of the aircraft.
+   - The highest fatalities recorded are from ***CESSNA** manufactured aircrafts..
 
-Some manufacturers show consistently higher safety records.
 
-Majority of accidents occur during landing and takeoff phases.
-
-Poor weather conditions correlate with higher accident rates.
-
-🛠️ Technologies Used
-Python 3
-
+# 🛠️ Technologies Used
+Python 
 Pandas
-
 Matplotlib
-
 Seaborn
-
 Jupyter Notebook
 
 ▶️ How to Run the Project
+
 Clone the repository.
+git clone https://github.com/HellenDianaNjeri/dsc-phase-1-project-v3.git
 
-Install required libraries:
-
-bash
-Copy
-Edit
-pip install pandas matplotlib seaborn
-Open the Jupyter Notebook (aviation_risk_analysis.ipynb).
-
+Open the Jupyter Notebook (student.ipynb).
 Run all cells to reproduce the analysis and visualizations.
 
-✅ Conclusion
+# ✅ Conclusion
+
 By leveraging insights from accident data, the company can select safer aircraft, reduce operational risks, and establish a strong foothold in the aviation industry.
