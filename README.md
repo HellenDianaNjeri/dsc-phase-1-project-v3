@@ -4,6 +4,13 @@
 Our company is expanding into the aviation industry and needs to select aircraft that have the lowest risk for commercial and private operations.
 This project analyzes historical aviation accident data to identify patterns, assess risks, and recommend aircraft types that are safer for business investment.
 
+## 🔍 Preview of Interactive Dashboard
+
+
+[![Dashboard Preview](IMAGE\Aircraft Risk Analysis Dashboard.png)]()
+
+
+
 # ❓ Business Problem
 The company requires actionable insights into which aircraft categories and aircraft makes have the fewest accidents and injuries.
 This will help the aviation division make informed decisions when purchasing aircraft for the new fleet.
